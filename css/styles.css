@@ -1,74 +1,99 @@
 body {
-      box-sizing: border-box;
-    }
-    
-    .font-heading {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-    }
-    
-    .font-body {
-      font-family: 'Mulish', system-ui, sans-serif;
-    }
-    
-    .gradient-bg {
-      background: linear-gradient(180deg, #faf9f7 0%, #f5f0eb 50%, #efe8e0 100%);
-    }
-    
-    .hero-gradient {
-      background: linear-gradient(135deg, #f8f6f3 0%, #efe8df 50%, #e8dfd4 100%);
-    }
-    
-    .btn-whatsapp {
-      background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
-    }
-    
-    .btn-whatsapp:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
-    }
-    
-    .card-soft {
-      background: rgba(255, 255, 255, 0.7);
-      backdrop-filter: blur(10px);
-    }
-    
-    .text-warm {
-      color: #5a4a3a;
-    }
-    
-    .text-warm-light {
-      color: #7a6a5a;
-    }
-    
-    .border-warm {
-      border-color: #e0d5c8;
-    }
-    
-    .animate-float {
-      animation: float 6s ease-in-out infinite;
-    }
-    
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-    
-    .animate-fade-in {
-      animation: fadeIn 0.8s ease-out forwards;
-    }
-    
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    
-    .stagger-1 { animation-delay: 0.1s; }
-    .stagger-2 { animation-delay: 0.2s; }
-    .stagger-3 { animation-delay: 0.3s; }
-    .stagger-4 { animation-delay: 0.4s; }
+  box-sizing: border-box;
+}
 
-    :root {
+.font-heading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Mulish', system-ui, sans-serif;
+}
+
+.gradient-bg {
+  background: linear-gradient(180deg, #faf9f7 0%, #f5f0eb 50%, #efe8e0 100%);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #f8f6f3 0%, #efe8df 50%, #e8dfd4 100%);
+}
+
+.btn-whatsapp {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.card-soft {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.text-warm {
+  color: #5a4a3a;
+}
+
+.text-warm-light {
+  color: #7a6a5a;
+}
+
+.border-warm {
+  border-color: #e0d5c8;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-1 {
+  animation-delay: 0.1s;
+}
+
+.stagger-2 {
+  animation-delay: 0.2s;
+}
+
+.stagger-3 {
+  animation-delay: 0.3s;
+}
+
+.stagger-4 {
+  animation-delay: 0.4s;
+}
+
+:root {
   color-scheme: only light;
 }
